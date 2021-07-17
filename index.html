@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Landing Page, Gama Academy</title>
+
+
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <div class="container-logo">
+                <img src="src/images/logo/logo.png" title="Logo da Daró" alt="Logo da Daró" width="70px" height="113px" class="logo">
+                <a href="http://www.freepik.com">Logo designed by <br> macrovector / Freepik</a>
+            </div>
+            <div class="toggle" onclick = 'toggleMenu()'></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h1>Promoção de Pré-venda da<span> Daró</span></h1>
+                </h1>
+                <p>A Daró Instrumentos está lançando três novos djembes: Kuku, Djaa e Dwoua. Todos eles esculpidos em madeira maciça. O envio será feito a partir de 01 de agosto de 2021. Cadastre-se para saber mais informações!</p>
+                <div id="content">
+                    <form id="form"> 
+                        <input type="text" placeholder="Nome" id="nome">
+                        <input type="text" placeholder="Email" id="email">
+                        <input type="submit" value="Cadastrar" class="submit">
+                    </form>
+                </div>
+            </div>
+            <div class="imgBox">
+                <img src="/src/images/produtos/djembes/djembe1.png" class="product" title="Djembe Kuku" alt="Djembe Kuku">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li>
+                <img src="/src/images/produtos/thumbs/thumb-djb1.png" onclick="slider('/src/images/produtos/djembes/djembe1.png')" title="Thumbnail Djembe Kuku" alt="Thumbnail Djembe Kuku">
+            </li>
+            <li>
+                <img src="/src/images/produtos/thumbs/thumb-djb2.png" onclick="slider('/src/images/produtos/djembes/djembe2.png')" title="Thumbnail Djembe Djaa" alt="Thumbnail Djembe Djaa">
+            </li>
+            <li>
+                <img src="/src/images/produtos/thumbs/thumb-djb3.png" onclick="slider('/src/images/produtos/djembes/djembe3.png')" title="Thumbnail Djembe Dwoua" alt="Thumbnail Djembe Dwoua">
+            </li>
+        </ul>
+        <ul class="icone">
+            <li>
+                <a href="#">
+                    <img src="/src/images/ícones/facebook.png" width="42px" height="90px" title="Ícone facebook" alt="Ícone facebook"/>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="/src/images/ícones/instagram.png" width="49.2px" height="49.2px" title="Ícone instagram" alt="Ícone instagram"/>
+                </a>
+            </li>
+        </ul>
+    </section>
+    
+    <script type="text/javascript" src="/js/script.js"></script>
+
+</body>
+</html>
