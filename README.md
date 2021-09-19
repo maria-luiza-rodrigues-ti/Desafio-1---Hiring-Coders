@@ -11,5 +11,5 @@ A página foi pensada como uma landing page responsiva de promoção de pré-ven
 ![Landing Page](src/images/../landing-page-daró.png)
 
 ```
-Link Netlify:
+Link Netlify: https://daro-instrumentos.netlify.app
 ```
